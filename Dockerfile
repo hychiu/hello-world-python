@@ -1,4 +1,4 @@
-FROM 35.184.91.80:8132/python:3-alpine
+FROM python:3-alpine
 WORKDIR /service
 COPY pip.conf /etc/pip.conf
 COPY requirements.txt .
